@@ -21,7 +21,7 @@ Notes:   main.css for Fizz-Buzz
 
 	.header-container,
 	.footer-container,
-	.add-button,
+	.enter-button,
 	.reset-button,
 	.print-button {
 		background: #09AD14;
@@ -115,18 +115,18 @@ Notes:   main.css for Fizz-Buzz
 		outline-color: #06700D;
 	}
 
-	.add-button {
+	.enter-button {
 		color: white;
 		font-family: 'Roboto Condensed', sans-serif;
 		font-weight: bold;
 		border: none;
 	}
 
-	.add-button:active {
+	.enter-button:active {
 		margin-top: 2px;
 	}
 
-	.add-button:focus {
+	.enter-button:focus {
 		outline: none;
 	}
 
