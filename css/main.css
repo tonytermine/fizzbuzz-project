@@ -153,7 +153,9 @@ Notes:   main.css for Fizz-Buzz
 
 	.green-stripe {
 		color: #09AD14;
+		font-size: 1.1em;
 		font-weight: bold;
+		vertical-align: bottom;
 	}
 
 	.checkbox {
@@ -274,6 +276,11 @@ Notes:   main.css for Fizz-Buzz
 
 	.instructions {
 		font-size: 0.7em;
+	}
+
+	.green-stripe {
+		font-size: 1.1em;
+
 	}
 
 	.list {
