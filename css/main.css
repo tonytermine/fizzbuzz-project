@@ -54,7 +54,7 @@ Notes:   main.css for Fizz-Buzz
 
 	.title {
 		color: #fff;
-	  font-family: 'Monoton', cursive;
+	  font-family: 'Monoton', sans-serif;
 	  font-size: 3.5em;
 	  margin: 0 auto;
 	}
@@ -103,6 +103,12 @@ Notes:   main.css for Fizz-Buzz
 		text-align: center;
 		position: relative;
 		vertical-align: middle;
+	}
+
+	.fizz-buzz {
+		color: #09AD14;
+		font-family: 'Monoton', sans-serif;
+		font-size: 1.1em;
 	}
 
 	.main-input {
@@ -158,13 +164,6 @@ Notes:   main.css for Fizz-Buzz
 		vertical-align: bottom;
 	}
 
-	.checkbox {
-		color: #000;
-		float: left;
-		margin-top: 3px;
-		margin-right: 30px;
-	}
-
 	.print-button {
 		color: white;
 		display: block;
@@ -216,7 +215,7 @@ Notes:   main.css for Fizz-Buzz
 	}
 
 	body {
-		background: url("../img/old_mathematics.png");
+		background: url("../img/old_mathematics.png") repeat;
 		-webkit-font-smoothing: antialiased;
 		text-rendering: optimizelegibility;
 	}
@@ -288,8 +287,12 @@ Notes:   main.css for Fizz-Buzz
 		padding: 0;
 	}
 
-	.list-items {
+	li {
 		font-size: 1.2em;
+	}
+
+	.fizz-buzz {
+		font-size: 0.9em;
 	}
 
 	.print-button {
