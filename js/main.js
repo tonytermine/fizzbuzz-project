@@ -16,7 +16,7 @@ $(".enter-button").click(function(e) {
 // Have an alert pop up if user does not enter anything in the input field, enters a space, letter, or decimal.
 	if(toAdd != "" && $.isNumeric(toAdd) && toAdd % 1 == 0) {
 	} else {
-		alert("Please, enter number to play Fizz-Buzz");
+		alert("Please, enter a whole number to play Fizz-Buzz");
 	}/*end alert*/
 
 	for (x = 1; x <= toAdd; x++) {
