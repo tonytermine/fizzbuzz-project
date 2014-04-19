@@ -1,13 +1,15 @@
-// append a new number to the list by taking the value of the user input when they click on the enter button. Have an alert pop up if user does not enter anything in the input field.  Must be a number from 1 - 100.
+// append a new number to the list by taking the value of the user input when they click on the enter button. Have an alert pop up if user does not enter anything in the input field.  Must be a number from 1-100.
+var fizz = ("Fizz");
+var buzz = ("Buzz");
+var fizzBuzz = ("Fizz-Buzz");
+var validInput = true;
+var resetNewEntry = function () {
+	$(".list").empty();
+};
 $(".enter-button").click(function(e) {
-	var fizz = ("Fizz");
-	var buzz = ("Buzz");
-	var fizzBuzz = ("Fizz-Buzz");
-	var validInput = true;
 	var toAdd = $(".main-input").val();
 	e.preventDefault();
-	$(".list").empty();
-
+	resetNewEntry();
 	if(toAdd != "" && $.isNumeric(toAdd)) {
 		validInput = true;
 	} else {
@@ -34,6 +36,6 @@ $(".enter-button").click(function(e) {
 
 // clear entire list by clicking reset button
 $(".reset-button").click(function(e) {
-	$(".list").empty();
+	resetNewEntry();
 	e.preventDefault();
 });/*end of reset click event*/
