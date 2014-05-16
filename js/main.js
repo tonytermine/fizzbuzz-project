@@ -1,6 +1,3 @@
-var fizz = ("Fizz");
-var buzz = ("Buzz");
-var fizzBuzz = ("Fizz-Buzz");
 var validInput = true;
 var resetList = function () {
 	$(".list").empty();
@@ -21,11 +18,11 @@ $(".enter-button").click(function(e) {
 
 	for (x = 1; x <= toAdd; x++) {
   if (x % 3 == 0 && x % 5 == 0) {
-		$(".list").append("<li class='fizz-buzz'>" + fizzBuzz + "</li>");
+		$(".list").append("<li class='fizz-buzz'>" + "Fizz-Buzz" + "</li>");
 	} else if (x % 3 == 0) {
-		$(".list").append("<li class='fizz-buzz'>" + fizz + "</li>");
+		$(".list").append("<li class='fizz-buzz'>" + "Fizz" + "</li>");
 	} else if (x % 5 == 0) {
-		$(".list").append("<li class='fizz-buzz'>" + buzz + "</li>");
+		$(".list").append("<li class='fizz-buzz'>" + "Buzz" + "</li>");
 	} else {
 		$(".list").append("<li>"+ x +"</li>");
 	}/*end if/else series*/
